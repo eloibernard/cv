@@ -1,0 +1,485 @@
+@font-face { 
+    font-family: 'open_sansregular', sans-serif;
+    src: url('opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans_regular_macroman/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	color: rgb(66,66,66);
+	
+}
+
+.Photo {
+	width: 30%;
+	background-color: rgb(255,193,7);
+	flex-shrink: 0;
+	text-align: center;
+	padding-top: 2%;
+}
+
+img {
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	box-shadow: 0px 0px 10px;
+
+}
+
+.title {
+	width: 70%;
+	background-color: #ffffff;
+	padding-top: 2%;
+}
+
+header h1 {
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+header h2 {
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+.identity {
+	padding-left: 7%;
+}
+
+.prenom {
+	font-family: open_sansregular, sans-serif;
+	color: rgb(255,193,7);
+	text-align: left;
+}
+
+.nom {
+	font-size: 130%;
+	color: black;
+}
+
+.profession {
+	text-align: left;
+	padding-left: 7%;
+}
+
+.devel {
+	border-bottom: 2.3px solid rgb(255,193,7);
+	padding-bottom: 1%;
+}
+
+body {
+	font-family: open_sansregular, sans-serif;
+	font-style: normal;
+	text-align: justify;
+    margin: 1%;
+    background-color: #ffffff;
+}
+
+.cv {
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px; 
+    align-items: center;
+}
+
+.corps {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+h1 {
+	font-size: x-large;
+}
+
+h2 {
+	font-size: large;
+	font-weight: bolder;
+}
+
+h3 {
+	font-size: medium;
+	font-weight: bolder;
+}
+
+h4 {
+	font-size: medium;
+	font-weight: bold;
+}
+
+/*cv gauche*/
+
+.gauche {
+	background-color: rgb(255,193,7);
+	color: rgb(78,192,184);
+	text-align: left;
+	width: 30%;
+	position: relative;
+}
+
+.gauche h2 {
+	background-color: rgb(66,66,66);
+	color: rgb(255,193,7);
+	text-align: center;
+	padding: 8%;
+}
+
+.gauche p {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	background-color: rgb(255,193,7);
+	color: rgb(66,66,66);
+	font-weight: bold;
+	text-align: justify;
+}
+
+/*/loisirs icones/*/
+
+.icones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.icone {
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	border: solid;
+	font-size: 2em;
+	color: rgb(66,66,66);
+}
+
+.gauche .fas {
+	color: rgb(64, 64, 64);
+}
+
+.loisirs {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/*cv droite*/
+
+.droite {
+	width: 70%;
+	color: rgb(66,66,66);
+	padding-top: 2%;
+}
+
+.droite p {
+	text-align: justify;
+}
+
+.formation, .experience, .recommandations {
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.dateetlieu {
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+	align-items: baseline;
+	flex-shrink: 0;
+	font-weight: bold;
+}
+
+.information {
+	padding-left: 7%;
+}
+
+.details {
+	justify-content: space-around;
+    align-self: stretch;
+    width: 70%;
+    padding-left: 12%;
+
+}
+
+.droite h2 {
+	border-bottom: 2px solid rgb(255,193,7);
+	padding-bottom: 1%;
+	color: black;
+	text-align: left;
+}
+
+.droite h3, .droite h4 {
+	text-align: left;
+}
+
+article {
+	display: flex;
+}
+
+span {
+	font-weight: bold;
+}
+
+.recommandation2 {
+	padding-left: 25%;
+    width: 30%;
+    float: left;
+}
+
+.far {
+	color: rgb(255,193,7);
+	padding-right: 7%;
+}
+
+.droite .fas {
+	color: rgb(255,193,7);
+	padding-right: 7%;
+}
+
+/*responsive*/
+
+@media all and (min-width: 426px) and (max-width: 1024px) {
+
+header {
+	background-color: rgb(11,155,199);
+	flex-direction: column;
+}
+
+.Photo {
+	padding-top: 0%; 
+	padding-bottom: 0%;
+	width: auto;
+	background-color: #ffffff;
+}
+
+img {
+	border: 4px solid rgb(255,193,7);
+}
+
+.title {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: auto;
+}
+
+header h1 {
+	font-size: x-large;
+	text-align: center;
+}
+
+header h2 {
+	font-size: large;
+	text-align: center;
+}
+
+.identity {
+	padding-left: 0%;
+}
+
+.prenom {
+	text-align: center;
+}
+
+.profession {
+	text-align: center;
+	padding-left: 0%;
+}
+
+.corps {
+    flex-direction: column-reverse;
+    width: auto;
+}
+
+.droite {
+    width: auto;
+}
+
+.dateetlieu {
+	width: auto;
+}
+
+.information { 
+	padding-left: 7%;
+}
+
+.details {
+    padding-right: 0%;
+    padding-left: 0%;
+    width: auto;
+}
+
+article {
+    flex-direction: column;
+    text-align: justify;
+}
+
+.recommandations h3, .recommandations h4 {
+    text-align: justify;
+}
+
+.recommandations p {
+    text-align: justify;
+}
+
+.recommandation2 {
+	padding-top: 3%;
+	padding-left: 12%;
+    text-align: justify;
+    float: left;
+}
+.gauche {
+    width: auto;
+}
+.gauche p {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.icones {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.loisirs {
+	position: relative;
+}
+}
+
+/*responsive mobile*/
+
+@media all and (max-width: 425px) {
+
+header {
+	background-color: RGB(78,192,184);
+	flex-direction: column;
+}
+
+.Photo {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: auto;
+	background-color: #ffffff;
+}
+
+img {
+	border: 4px solid rgb(255,193,7);
+}
+.title {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	width: auto;
+}
+
+header h1 {
+	font-size: x-large;
+	text-align: center;
+}
+header h2 {
+	font-size: large;
+	text-align: center;
+}
+
+.identity {
+	padding-left: 0%;
+}
+
+.prenom {
+	text-align: center;
+}
+
+.profession {
+	text-align: center;
+	padding-left: 0%;
+}
+
+.corps {
+	flex-direction: column-reverse;
+	width: auto;
+}
+
+.droite {
+	width: auto;
+}
+
+h1 {
+	font-size: large;
+}
+
+h2 {
+	font-size: large;
+	font-weight: bolder;
+}
+
+h3 {
+	font-size: medium;
+	font-weight: bolder;
+}
+
+h4 {
+	font-size: medium;
+	font-weight: bold;
+}
+
+.dateetlieu {
+	width: auto;
+}
+
+.information {
+	padding-left: 1%;
+}
+
+.details {
+	padding-right: 0%;
+	padding-left: 0%;
+	width: auto;
+}
+
+article {
+	flex-direction: column;
+	text-align: left;
+}
+
+.recommandations h3, .recommandations h4 {
+	text-align: justify;
+}
+
+.recommandations p {
+	text-align: justify;
+}
+
+.recommandation2 {
+	padding-top: 3%;
+	padding-left: 12%;
+	text-align: justify;
+	float: left;
+}
+
+.gauche {
+	width: auto;
+}
+
+.gauche p {
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+.icones {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.icone {
+	font-size: 2em;
+}
+
+.loisirs {
+	position: relative;
+}
+}
