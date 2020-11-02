@@ -228,11 +228,27 @@ span {
 	font-weight: bold;
 }
 
-.recommandation2 {
-	padding-left: 25%;
-    width: 30%;
-    float: left;
+.recommandation1 {
+	padding-top: 3%;
+	padding-left: 0%;
+	text-align: left;
+	float: left;
 }
+
+.recommandation2 {
+	padding-top: 3%;
+	padding-left: 25%;
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+
+.droite h2 {
+	border-bottom: 2px solid rgb(255,193,7);
+	padding-bottom: 1%;
+	color: black;
+	text-align: left;
+ }
 
 .far {
 	color: rgb(255,193,7);
@@ -329,12 +345,21 @@ article {
     text-align: justify;
 }
 
+.recommandation1 {
+	padding-top: 3%;
+	padding-left: 0%;
+	text-align: left;
+	float: left;
+}
+
 .recommandation2 {
 	padding-top: 3%;
-	padding-left: 12%;
-    text-align: justify;
-    float: left;
+	padding-left: 0%;
+	width: 55%;
+	text-align: left;
+	float: left;
 }
+
 .gauche {
     width: auto;
 }
@@ -454,10 +479,18 @@ article {
 	text-align: justify;
 }
 
+.recommandation1 {
+	padding-top: 3%;
+	padding-left: 0%;
+	text-align: left;
+	float: left;
+}
+
 .recommandation2 {
 	padding-top: 3%;
-	padding-left: 12%;
-	text-align: justify;
+	padding-left: 0%;
+	width: 65%;
+	text-align: left;
 	float: left;
 }
 
